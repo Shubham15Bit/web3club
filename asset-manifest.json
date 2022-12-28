@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-web3club/static/css/main.26e64dbe.css",
+    "main.js": "/my-web3club/static/js/main.b5d5e506.js",
+    "static/js/787.3debf738.chunk.js": "/my-web3club/static/js/787.3debf738.chunk.js",
+    "static/media/creatingAccount.jpg": "/my-web3club/static/media/creatingAccount.91a15292ab8074595d0f.jpg",
+    "static/media/knowledge.jpg": "/my-web3club/static/media/knowledge.24287d58c4999f21db76.jpg",
+    "static/media/explore.jpg": "/my-web3club/static/media/explore.0a4893421f4eb80a395c.jpg",
+    "static/media/landingpageimaage.jpg": "/my-web3club/static/media/landingpageimaage.aaf4eac9027b4f6b7892.jpg",
+    "static/media/startPosting.jpg": "/my-web3club/static/media/startPosting.c367e43a266277ca8fb8.jpg",
+    "static/media/extra.jpg": "/my-web3club/static/media/extra.751461c291e4e4731123.jpg",
+    "static/media/createPage.png": "/my-web3club/static/media/createPage.1d62afbcb379868dfead.png",
+    "static/media/profile.jpg": "/my-web3club/static/media/profile.c658050dc5fa17ebab82.jpg",
+    "static/media/joinClub.jpg": "/my-web3club/static/media/joinClub.7968c129cb6b52c24255.jpg",
+    "static/media/4400847.jpg": "/my-web3club/static/media/4400847.ec51445119d466c82b70.jpg",
+    "static/media/networking.jpg": "/my-web3club/static/media/networking.ff5e010585f48781ef8d.jpg",
+    "static/media/BackGroundImage.png": "/my-web3club/static/media/BackGroundImage.61b39371d5a621ee4ef7.png",
+    "static/media/BITlogo.png": "/my-web3club/static/media/BITlogo.f164d2add327e15ad523.png",
+    "static/media/polygon.png": "/my-web3club/static/media/polygon.be8aae57bb469c33bf7c.png",
+    "index.html": "/my-web3club/index.html",
+    "main.26e64dbe.css.map": "/my-web3club/static/css/main.26e64dbe.css.map",
+    "main.b5d5e506.js.map": "/my-web3club/static/js/main.b5d5e506.js.map",
+    "787.3debf738.chunk.js.map": "/my-web3club/static/js/787.3debf738.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26e64dbe.css",
+    "static/js/main.b5d5e506.js"
+  ]
+}
