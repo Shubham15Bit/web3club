@@ -1,0 +1,151 @@
+.clubDetails {
+  color: white;
+  display: flex;
+  padding: 40px 20px;
+}
+
+.clubPic {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  color: white;
+}
+
+.clubPic img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.clubData {
+  padding: 40px;
+}
+
+.clubPostContainer {
+  padding: 10px 20px;
+}
+
+.newPost textarea {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.postButton {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+.postButton button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  width: 50vw;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment_and_like {
+  display: flex;
+  padding: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+.comment_and_like div {
+  margin: 2vh;
+}
+
+.comment_and_like .comment input {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 5vw;
+  padding-left: 1vw;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  outline: none;
+}
+.comment_and_like .like {
+  cursor: pointer;
+}
+/* post.js code css is here  */
+.post {
+  background-color: black;
+  color: white;
+  padding: 3vh;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  margin: 9px;
+}
+.post .postedBy {
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.post span {
+  color: blueviolet;
+}
+.comment button {
+  padding: 2vh 3vw;
+  margin-left: 2vh;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+/* post.js code css is here  */
+
+.comment_box {
+  border: 2px solid grey;
+  padding: 2vh;
+  border-radius: 12px;
+}
+.comment_box li {
+  margin: 2vh 0;
+  list-style: none;
+}
+
+.likecount p{
+  margin-top: 3vh;
+  font-size: 4vh;
+}
+
+
+.status {
+  width: 80vw;
+  margin: auto;
+}
+.like{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.like button {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  /* margin-top:2vh ; */
+}
+
+
+/* dummy post details starting */
+.dummypostdetails{
+  border: 1px solid white;
+  background-color: black;
+
+}
+/* dummy post details starting */
+
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .clubPic {
+    margin: auto;
+  }
+}

@@ -1,0 +1,296 @@
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+.background{
+  /* border: 2px solid greenyellow; */
+  /* margin-top: 15vh; */
+  background: url("../../Images//createPage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgba(16,1,58,255); */
+
+}
+.profile_box {
+  height: 20vh;
+}
+
+.profile_picture {
+  height: 30vh;
+  width: 15vw;
+  border-radius: 50%;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.profile_picture img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.details {
+  margin-top: 10vh;
+  /* border: 2px solid red;/ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.details .name p {
+  font-weight: 700;
+  
+}
+
+.details div {
+  margin: 10px 10px;
+
+  }
+
+.details input{
+  padding: 10px 10px;
+  padding-right: 10vh;
+
+
+}
+.details .wallet_address p {
+  letter-spacing: 1.6px;
+  font-weight: 800;
+  color: grey;
+}
+.editButton{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details .editButton button {
+  /* margin-top: 120vh; */
+  padding: 12px 40px;
+  font-weight: 900;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #7873F5;
+  color: white;
+  margin: 1vh 5vh;
+  /* padding: 0px 0px; */
+
+  /* border: 2px solid red; */
+
+
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+   margin: auto;
+   /* border: 2px solid rebeccapurple; */
+   width: 90vw;
+   /* height: 100vh; */
+}
+
+.option{
+   
+  margin: 3vh 3vw;
+  padding: 2vh;
+  background-color: black;
+  cursor: pointer ;
+  /* margin-top: 2vh; */
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  
+   
+}
+
+
+ 
+
+.myoptions1,.myoptions2  {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  flex: 50%;
+
+}
+
+.myoptions1  button{
+  margin: 20px ;
+  padding: 10px 10px;
+  background-color: #24435C ;
+
+  color: white;
+  border: none;
+  font-weight: 900;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 20vw;
+  align-self: center;
+
+}
+ 
+
+.myoptions2  button{
+  margin: 20px ;
+  padding: 10px 10px;
+  background-color: #24435C ;
+
+  color: white;
+  border: none;
+  font-weight: 900;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 20vw;
+  align-self: center;
+
+}
+.my_post_data{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+  width: 100%;
+
+}
+.my_post_data::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.my_post_data::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.my_post_data::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.my_post_data::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* MyPostData css */
+
+
+.post_card{
+  /* border: 2px solid red; */
+  /* margin: 3vh 1vw;
+  padding: 2vh 2vw; */
+  margin: 3vh 2vw;
+  padding: 2vh;
+  /* background-color: rgba(16,1,58,255); */
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  width: 40vw;
+}
+.post_image_and_name{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+}
+
+.post_image_and_name img{
+  height: 20vh;
+}
+.post_info p{
+  margin: 2vh;
+
+}
+/* MyPostData css */
+
+/* myclub data css */
+.my_club_data{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+  width: 100%;
+  font-weight: bolder;
+   
+   
+}
+.my_club_data ul li{
+  list-style: none;
+  margin: 3vh 1vw;
+  cursor: pointer;
+  background-color: rgba(16,1,58,255);
+  padding: 5vh;
+  /* font-weight: 900; */
+  font-weight: bolder;
+
+}
+
+.my_club_data::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.my_club_data::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.my_club_data::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.my_club_data::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* myclub data css */
+  
+
+
+
+
+@media (min-width: 300px) and (max-width: 480px){
+
+  .profile_picture {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+  }
+  .details button{
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+  .options{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .myoptions1 button{
+    width: 50vw;
+    background-color: #24435C ;
+  }
+  .myoptions2 button{
+    width: 50vw;
+    background-color: #24435C ;
+  }
+
+  .editButton {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .editButton button{
+      width: 50vw;
+      
+  }
+
+  .my_club_data , .my_post_data{
+    width: 100vw;
+  }
+}

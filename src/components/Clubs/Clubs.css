@@ -1,0 +1,213 @@
+.club_box {
+  height: 100%;
+  background: url("../../Images/createPage.png");
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.club_info {
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.categories_heading {
+  padding: 0px 1vw;
+}
+.category_list ul li {
+  list-style: none;
+  margin: 5vh 0vw;
+  font-size: 1.3em;
+  font-weight: 700;
+  cursor: pointer;
+
+  padding: 10px 30px;
+  color: white;
+}
+
+.category_list ul li:hover {
+  background-color: black;
+}
+
+.categories_heading .heading {
+  font-size: 1em;
+  color: white;
+}
+
+.categories_information {
+  /* border: 2px solid red; */
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 150vh;
+  margin-top: 35vh;
+  padding: 2vh 2vw;
+  width: 55vw;
+}
+
+.categories_information::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.categories_information::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.categories_information::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.categories_information::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.information_box {
+  width: 50vw;
+  display: flex;
+  padding: 5vh 2vw;
+  background-color: white;
+
+  align-items: center;
+  margin: 2vh 0px;
+}
+
+.information_box .image_container img {
+  height: 17vh;
+  width: 10vw;
+  margin-top: 10px;
+}
+
+.information_box .content_information {
+  margin-left: 1vw;
+
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content_information .heading {
+  font-size: 2rem;
+}
+
+.content_information .members {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+/*  */
+
+.more_categories {
+  display: none;
+}
+
+.pagination_button h4 {
+  color: white;
+}
+
+/* pagination css */
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 20px 8px;
+
+  border-radius: 5px;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: black;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: black;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+/* pagination css */
+
+/* MobileViewFilter css */
+.category_search {
+  padding: 2vh 2vw;
+  display: flex;
+}
+.category_search input {
+  padding: 2vh 2vw;
+  font-weight: 980;
+}
+
+.category_search button {
+  padding: 1vh 3vw;
+}
+
+.status2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 35vw;
+}
+/* MobileViewFilter css */
+
+/* Media query starts here  */
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .information_box {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  .category_list {
+    display: none;
+  }
+
+  .club_info {
+    flex-direction: column;
+  }
+  .more_categories {
+    display: block;
+    padding: 2vh 5vw;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 2vh auto;
+  }
+  .increase_height {
+    height: 100%;
+  }
+
+  .information_box .image_container img {
+    width: 50vw;
+    height: 25vh;
+  }
+  .categories_information {
+    overflow: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 1vh 3vw;
+  }
+  .more_categories {
+    display: none;
+  }
+}

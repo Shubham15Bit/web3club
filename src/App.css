@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.status{
+  color: white;
+  font-weight: 700;
+  /* display: none; */
+  /* margin: 0; */
+  /* position: absolute; */
+  /* top: 0; */
+}

@@ -1,0 +1,137 @@
+.outerCreate {
+  border: 1px solid transparent;
+  background: url("../../Images/createPage.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-color: #082943;
+
+  /* width: 100%; */
+}
+
+.createbox {
+  border: 2px solid #1d3e58;
+  border-radius: 23px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80vw;
+  background-color: #082943;
+  background: transparent;
+}
+.createbox .heading {
+  text-align: left;
+  color: white;
+}
+.heading h2 {
+  font-size: 4rem;
+}
+
+.create_form {
+  margin: auto;
+  /* width: 50rem; */
+  display: flex;
+  justify-content: center;
+}
+.create_form div {
+  margin: 30px 20px;
+}
+
+.create_form div input {
+  padding: 10px 10px;
+  width: 56vw;
+  font-weight: 700;
+}
+
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.file-input label {
+  display: block;
+  position: relative;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 12px;
+  background: linear-gradient(40deg, #ff6ec4, #7873f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+  margin-left: -20px;
+
+  /* font-size: 1rem; */
+}
+
+.category p {
+  margin: 15px 0px;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+}
+.category select {
+  padding: 8px 10px;
+  width: 13vw;
+  cursor: pointer;
+  border-radius: 1px;
+  height: 6vh;
+}
+
+.create_button button {
+  padding: 10px 20px;
+  width: 56vw;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: large;
+  background-color: #7873f5;
+  color: white;
+  border: transparent;
+  border-radius: 6px;
+}
+
+.clubDescription textarea {
+  padding: 10px 10px;
+  font-weight: 700;
+  width: 56vw;
+}
+
+.MuiAlert-root {
+  color: #082943;
+  padding: 12vh;
+}
+
+/* For Select MEnu */
+
+/* for select Menu */
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .createbox .heading h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .createbox .heading {
+    padding: 0 3vw;
+  }
+
+  .clubDescription textarea {
+    height: 30vh;
+  }
+
+  .category select {
+    width: 40vw;
+    font-size: 0.8rem;
+    padding: 2px;
+  }
+
+  .file-input label {
+    text-align: center;
+    font-size: 0.6rem;
+  }
+}
